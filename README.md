@@ -1,5 +1,4 @@
-# Anima App exported react code
-This package was generated automatically with [Anima App](https://www.animaapp.com).
+# Digital Card React Project
 ## Instructions
 ```
 cd package_code
