@@ -1,4 +1,3 @@
-# Digital Card React Project
 ## Instructions
 ```
 cd package_code
