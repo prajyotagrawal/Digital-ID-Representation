@@ -9,6 +9,16 @@ import { useHistory } from 'react-router-dom';
 import Form from 'react-bootstrap/Form'
 import { useState } from "react";
 
+/*
+For the Inputs Form GUI Praj imported a couple of libraries for objects and object placements in the
+form.
+
+e.g. { useState } allows me to use plain JS objects, that represent info of an objects current situation,
+in functions. Also, { useHistory } is another hook that allows me to access the history instance
+"memory" by using React router.
+*/
+
+
 export default function InputAdornments() {
 
   const history = useHistory();
@@ -23,6 +33,11 @@ export default function InputAdornments() {
     gender: '',
     birth: '',
   });
+
+  /*
+  All of the variables here are dynamic, which mean they get updated with every string inputted
+  by the user for each object.
+  */
 
   const handleChange = ({ currentTarget: input }) => {
     setValues({ ...values, [input.name]: input.value });
